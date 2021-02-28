@@ -5,7 +5,8 @@ const HeaderComponent = () => {
     <header className="masthead d-flex">
       <div className="container text-center my-auto">
         <h1 className="mb-1 text-white">
-          ¿Necesitas asesoría jurídica en asuntos laborales?
+          ¿Cuánto llevas trabajando para una plataforma sin prestaciones
+          sociales ni los mínimos legales?
         </h1>
         <h3 className="mb-5">
           <em></em>

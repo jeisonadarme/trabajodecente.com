@@ -25,7 +25,7 @@ const FooterComponent = () => {
           </li>
         </ul>
         <p className="text-muted small mb-0">
-          Copyright &copy; 2020 - Developed by{" "}
+          Copyright &copy; 2021 - Developed by{" "}
           <a
             target="blank"
             href="https://www.linkedin.com/in/jeison-adarme-75534a115/"

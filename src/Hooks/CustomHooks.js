@@ -1,19 +1,19 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
-const useSendForm = callback => {
+const useSendForm = (callback) => {
   const [inputs, setImputs] = useState({});
   const [weekDays, setWeekDays] = useState(new Map());
   const [platforms, setPlatforms] = useState(new Map());
   const [services, setServices] = useState(new Map());
 
-  const handleSubmit = event => {
+  const handleSubmit = (event) => {
     if (event) {
       event.preventDefault();
     }
     callback();
   };
 
-  const handleInputChange = event => {
+  const handleInputChange = (event) => {
     event.persist();
     if (
       (event.target.name === "sureName" || event.target.name === "lastName") &&
@@ -36,13 +36,13 @@ const useSendForm = callback => {
       }
     }
 
-    setImputs(inputs => ({
+    setImputs((inputs) => ({
       ...inputs,
-      [event.target.name]: event.target.value
+      [event.target.name]: event.target.value,
     }));
   };
 
-  const handleWeekDaysCheckboxChange = event => {
+  const handleWeekDaysCheckboxChange = (event) => {
     setWeekDays(weekDays.set(event.target.value, event.target.checked));
   };
 
@@ -79,7 +79,7 @@ const useSendForm = callback => {
     weekDays,
     platforms,
     services,
-    cleanState
+    cleanState,
   };
 };
 

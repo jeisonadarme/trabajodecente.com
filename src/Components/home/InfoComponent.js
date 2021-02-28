@@ -8,16 +8,15 @@ const InfoComponent = () => {
           <div className="row">
             <div className="col-lg-10 mx-auto">
               <h2>¿Qué es trabajodecente.com?</h2>
+              <br />
               <p className="lead mb-5">
-                Es la primera página web de asesoría jurídico legal en Derecho
-                Laboral Colombiano que se enfoca en atender las situaciones de
-                sus visitantes con el fin de propender en favor estos por el
-                reconocimiento de un trabajo decente ante la creciente
-                precarización de las condiciones en las que se desarrollan los
-                trabajos en la actualidad a causa del fenómeno mundial de la{" "}
-                <i>On Demand Economy</i>, también denominada en términos amplios
-                como:
-                <i>Economía Colaborativa o Sharing Economy.</i>
+                Es la primera página web de asesoría jurídico legal en Colombia
+                que se enfoca en el estudio de las nuevas formas de trabajo, la
+                lucha contra precarización laboral y la informalidad que ha
+                generado el fenómeno mundial de la llamada "Economía
+                Colaborativa" o "Sharing Economy" y "las plataformas digitales"
+                como Uber, Uber Eats, Rappi, Deliverloo, Domicilios.com y
+                similares, en las relaciones de trabajo.
               </p>
             </div>
           </div>
@@ -32,6 +31,7 @@ const InfoComponent = () => {
             <div className="row">
               <div className="col-lg-10 mx-auto">
                 <h2>¿Usted tiene un ‘trabajo decente’?</h2>
+                <br />
                 <p className="lead mb-5">
                   ¿Cuántos días trabaja a la semana? ¿Es en su propio negocio o
                   está vinculado a una plataforma que le dicta las instrucciones
@@ -42,21 +42,23 @@ const InfoComponent = () => {
                   mandados especiales de otras personas que no tienen el tiempo
                   para realizarlos por sí mismos? ¿En ocasiones son cuatro, seis
                   ocho o más horas al servicio de una plataforma que a su vez le
-                  proporciona su principal fuente de ingresos? <br /> Sin
-                  embargo, aunque usted se esfuerza y siempre busca las cinco
-                  estrellas, lo ganado no es suficiente para ser cotizante en el
-                  sistema de seguridad social? ¿No cuenta con más protección que
-                  el seguro obligatorio del vehículo o motocicleta (SOAT)
-                  porque, sino hay la posibilidad de cotizar a pensiones
-                  (Colpensiones o AFP) y realizar los aportes a salud (EPS),
-                  mucho menos alcanza para pagar una aseguradora de riesgos
-                  profesionales (ARL)? Estas y otras circunstancias que usted
-                  vive son las que nos hacen reflexionar si usted goza de un
-                  trabajo decente, a fin de buscar reconocimiento.
+                  proporciona su principal fuente de ingresos? <br /> <br />
+                  Sin embargo, aunque usted se esfuerza y siempre busca las
+                  cinco estrellas, lo ganado no es suficiente para ser cotizante
+                  en el sistema de seguridad social? ¿No cuenta con más
+                  protección que el seguro obligatorio del vehículo o
+                  motocicleta (SOAT) porque, sino hay la posibilidad de cotizar
+                  a pensiones (Colpensiones o AFP) y realizar los aportes a
+                  salud (EPS), mucho menos alcanza para pagar una aseguradora de
+                  riesgos profesionales (ARL)?
                   <br />
-                  Trabajo decente es un concepto asumido por la Organización
-                  Internacional del Trabajo (OIT) como un principio superior en
-                  la declaración de Filadelfia de 1944.
+                  <br />
+                  Estas y otras circunstancias que usted vive son las que nos
+                  hacen reflexionar si usted goza de un trabajo decente, a fin
+                  de buscar reconocimiento. Trabajo decente es un concepto
+                  asumido por la Organización Internacional del Trabajo (OIT)
+                  como un principio superior en la declaración de Filadelfia de
+                  1944.
                 </p>
                 <button
                   className="btn btn-light btn-xl"
