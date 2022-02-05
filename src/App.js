@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 /** Pages */
 import Home from "./pages/home";
 import Login from "./pages/login";
+import Registros from "./pages/registros";
 
 /** redux */
 
@@ -17,7 +18,7 @@ import {
   transitions,
   positions,
   Provider as AlertProvider,
-  types
+  types,
 } from "react-alert";
 import AlertTemplate from "react-alert-template-oldschool-dark";
 
@@ -29,9 +30,9 @@ const options = {
   // you can also just use 'scale'
   transition: transitions.SCALE,
   containerStyle: {
-    zIndex: 2000
+    zIndex: 2000,
   },
-  type: types.INFO
+  type: types.INFO,
 };
 
 function App() {
@@ -45,7 +46,8 @@ function App() {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/login" component={Login} />
+            <Route path="/login" component={Login} />
+            <Route path="/registros" component={Registros} />
           </Switch>
         </Router>
       </Provider>
